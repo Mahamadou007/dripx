@@ -1,0 +1,9 @@
+export const products=[
+ {id:1,title:'Veste saharienne',en:'Saharan jacket',shop:'KAYES TAILORING CO.',price:18500,cat:'Vestes',image:'https://images.unsplash.com/photo-1598808503746-f34c53b9323e?auto=format&fit=crop&w=900&q=85',sizes:['M','L','XL'],tag:'Nouveau',stock:'En stock'},
+ {id:2,title:'Ensemble indigo',en:'Indigo co-ord set',shop:'BOUGOU STYLE',price:24000,cat:'Ensembles',image:'https://images.unsplash.com/photo-1617137968427-85924c800a22?auto=format&fit=crop&w=900&q=85',sizes:['M','L','XL'],tag:'Édition limitée',stock:'Stock bas'},
+ {id:3,title:'Chemise artisanale',en:'Artisan shirt',shop:'LE COMPTOIR DE KAYES',price:12000,cat:'Chemises',image:'https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=900&q=85',sizes:['S','M','L'],tag:'Fait à Kayes',stock:'En stock'},
+ {id:4,title:'Pantalon coupe droite',en:'Straight-leg trousers',shop:'KAYES TAILORING CO.',price:15000,cat:'Pantalons',image:'https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=900&q=85',sizes:['M','L','XL'],tag:'Dernières pièces',stock:'En stock'},
+ {id:5,title:'Polo signature',en:'Signature polo',shop:'BOUGOU STYLE',price:9500,cat:'Polos',image:'https://images.unsplash.com/photo-1625910513413-5fc60b7875aa?auto=format&fit=crop&w=900&q=85',sizes:['S','M','L','XL'],tag:'Nouveau',stock:'En stock'},
+ {id:6,title:'Boubou contemporain',en:'Contemporary boubou',shop:'LE COMPTOIR DE KAYES',price:28000,cat:'Boubous',image:'https://images.unsplash.com/photo-1583743814966-8936f37f4678?auto=format&fit=crop&w=900&q=85',sizes:['M','L','XL'],tag:'Sur mesure',stock:'Sur commande'}];
+export const vendors=[['01','KAYES TAILORING CO.','Costumes et essentiels modernes','12 pièces'],['02','BOUGOU STYLE','Couleurs, caractère, culture','9 pièces'],['03','LE COMPTOIR DE KAYES','Pièces d’ici, allure d’ailleurs','7 pièces']];
+export const fmt=v=>new Intl.NumberFormat('fr-FR').format(v)+' XOF';
